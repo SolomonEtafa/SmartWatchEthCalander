@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="watch_face_name">Ethiopian Chronograph</string>
+    <string name="date_slot_name">Ethiopian date</string>
+    <string name="health_slot_name">Health or heart rate</string>
+    <string name="battery_slot_name">Watch battery</string>
+    <string name="steps_slot_name">Daily steps</string>
+</resources>

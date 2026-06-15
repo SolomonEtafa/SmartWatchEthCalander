@@ -1,0 +1,11 @@
+[versions]
+android-gradle-plugin = "8.2.2"
+androidx-wear-watchface = "1.2.1"
+kotlin = "1.9.22"
+
+[libraries]
+androidx-wear-watchface-complications-data-source-ktx = { module = "androidx.wear.watchface:watchface-complications-data-source-ktx", version.ref = "androidx-wear-watchface" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

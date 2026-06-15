@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WatchFace width="450" height="450">
+    <Metadata key="CLOCK_TYPE" value="ANALOG"/>
+    <Metadata key="PREVIEW_TIME" value="10:08:38"/>
+
+    <Scene backgroundColor="#000000">
+        <!-- Bezel and layered dial. -->
+        <PartDraw x="0" y="0" width="450" height="450">
+           <!-- <Ellipse x="8" y="8" width="434" height="434">
+                <Fill color="#101113"/>
+            </Ellipse>
+            <Ellipse x="18" y="18" width="414" height="414">
+                <Stroke thickness="13" color="#F47721"/>
+            </Ellipse>
+            <Ellipse x="31" y="31" width="388" height="388">
+                <Fill color="#070809"/>
+            </Ellipse>
+            <Ellipse x="38" y="38" width="374" height="374">
+                <Stroke thickness="2" color="#34363A"/>
+            </Ellipse>
+            <Ellipse x="48" y="48" width="354" height="354">
+                <Stroke thickness="2" color="#1F2225"/>
+            </Ellipse>-->
+        </PartDraw>
+
+        <!-- Tachymeter labels. -->
+        <PartText x="183" y="6" width="84" height="25">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="22" weight="NORMAL" color="#ffffff">
+                    <![CDATA[]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 
+        <PartText x="37" y="53" width="42" height="22" angle="-42">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="14" weight="NORMAL" color="#F47721"><![CDATA[70]]></Font>
+            </Text>
+        </PartText>
+        <PartText x="371" y="53" width="42" height="22" angle="42">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="14" weight="NORMAL" color="#111111"><![CDATA[400]]></Font>
+            </Text>
+        </PartText>
+        <PartText x="405" y="184" width="35" height="22">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="14" weight="NORMAL" color="#111111"><![CDATA[240]]></Font>
+            </Text>
+        </PartText>
+        <PartText x="12" y="184" width="35" height="22">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="14" weight="NORMAL" color="#F47721"><![CDATA[80]]></Font>
+            </Text>
+        </PartText>
+        <PartText x="197" y="419" width="56" height="23">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="14" weight="NORMAL" color="#F47721"><![CDATA[120]]></Font>
+            </Text>
+        </PartText>
+        -->
+
+        <!-- Twelve heavy hour ticks, rotated around the center. -->
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="30">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="60">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="90">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="120">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="150">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="180">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="210">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="240">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="270">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="300">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="330">
+            <Line startX="225" startY="45" endX="225" endY="63"><Stroke thickness="5" color="#F5F5F2"/></Line>
+        </PartDraw>
+
+        <!-- Upright hour numerals. 
+        <PartText x="185" y="37" width="80" height="53"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="48" weight="BOLD" color="#F4F4F2"><![CDATA[12]]></Font></Text></PartText>
+        <PartText x="337" y="91" width="58" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[2]]></Font></Text></PartText>
+        <PartText x="376" y="177" width="54" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[3]]></Font></Text></PartText>
+        <PartText x="338" y="265" width="58" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[4]]></Font></Text></PartText>
+        <PartText x="288" y="342" width="58" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[5]]></Font></Text></PartText>
+        <PartText x="104" y="265" width="58" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[8]]></Font></Text></PartText>
+        <PartText x="19" y="177" width="54" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[9]]></Font></Text></PartText>
+        <PartText x="54" y="91" width="70" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[10]]></Font></Text></PartText>
+        <PartText x="105" y="49" width="70" height="50"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="43" weight="BOLD" color="#F4F4F2"><![CDATA[11]]></Font></Text></PartText>
+        -->
+        <!-- Ethiopian date window. -->
+        <ComplicationSlot
+            x="166" y="91" width="118" height="67"
+            slotId="1"
+            displayName="date_slot_name"
+            supportedTypes="LONG_TEXT EMPTY">
+            <DefaultProviderPolicy
+                primaryProvider="com.solomonetafa.ethiopiancalendar.provider/com.example.ethcalendar.provider.EthiopianDateDataSourceService"
+                primaryProviderType="LONG_TEXT"/>
+            <BoundingRoundBox x="0" y="0" width="118" height="67" cornerRadius="7" outlinePadding="2"/>
+            <Complication type="LONG_TEXT">
+                <PartDraw x="0" y="0" width="118" height="67">
+                    <RoundRectangle x="0" y="0" width="118" height="67" cornerRadiusX="7" cornerRadiusY="7"><Fill color="#151618"/></RoundRectangle>
+                    <RoundRectangle x="1" y="1" width="116" height="65" cornerRadiusX="6" cornerRadiusY="6"><Stroke thickness="2" color="#4A4C50"/></RoundRectangle>
+                </PartDraw>
+                <PartText x="4" y="15" width="110" height="38">
+                    <Text align="CENTER" ellipsis="TRUE"><Font family="SYNC_TO_DEVICE" size="33" weight="BOLD" color="#F47721"><Template>%s<Parameter expression="[COMPLICATION.TEXT]"/></Template></Font></Text>
+                </PartText>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- Left health complication. -->
+        <ComplicationSlot
+            x="82" y="153" width="116" height="116"
+            slotId="2"
+            displayName="health_slot_name"
+            supportedTypes="SHORT_TEXT RANGED_VALUE EMPTY">
+            <BoundingOval x="0" y="0" width="116" height="116"/>
+            <Complication type="SHORT_TEXT">
+                <PartDraw x="0" y="0" width="116" height="116">
+                    <Ellipse x="2" y="2" width="112" height="112"><Fill color="#101113"/></Ellipse>
+                    <Ellipse x="3" y="3" width="110" height="110"><Stroke thickness="3" color="#34363A"/></Ellipse>
+                </PartDraw>
+                <PartText x="31" y="15" width="54" height="24"><Text align="CENTER"><Font family="SYNC_TO_DEVICE" size="19" weight="BOLD" color="#AEB1B4"><![CDATA[♥]]></Font></Text></PartText>
+                <PartText x="10" y="42" width="96" height="33"><Text align="CENTER" ellipsis="TRUE"><Font family="SYNC_TO_DEVICE" size="25" weight="BOLD" color="#F4F4F2"><Template>%s<Parameter expression="[COMPLICATION.TEXT]"/></Template></Font></Text></PartText>
+                <PartText x="10" y="78" width="96" height="21"><Text align="CENTER" ellipsis="TRUE"><Font family="SYNC_TO_DEVICE" size="12" weight="BOLD" color="#F47721"><Template>%s<Parameter expression="[COMPLICATION.TITLE]"/></Template></Font></Text></PartText>
+            </Complication>
+            <Complication type="RANGED_VALUE">
+                <PartDraw x="0" y="0" width="116" height="116">
+                    <Ellipse x="2" y="2" width="112" height="112"><Fill color="#101113"/></Ellipse>
+                    <Ellipse x="3" y="3" width="110" height="110"><Stroke thickness="3" color="#34363A"/></Ellipse>
+                </PartDraw>
+                <PartText x="10" y="42" width="96" height="33"><Text align="CENTER" ellipsis="TRUE"><Font family="SYNC_TO_DEVICE" size="25" weight="BOLD" color="#F4F4F2"><Template>%s<Parameter expression="[COMPLICATION.TEXT]"/></Template></Font></Text></PartText>
+                <PartText x="10" y="78" width="96" height="21"><Text align="CENTER" ellipsis="TRUE"><Font family="SYNC_TO_DEVICE" size="12" weight="BOLD" color="#F47721"><Template>%s<Parameter expression="[COMPLICATION.TITLE]"/></Template></Font></Text></PartText>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- Layered analog hands and center pin. -->
+        <AnalogClock x="0" y="0" width="450" height="450">
+            <HourHand resource="hour_hand_shadow" x="211" y="89" width="32" height="151" pivotX="0.5" pivotY="0.9"/>
+            <MinuteHand resource="minute_hand_shadow" x="214" y="54" width="27" height="187" pivotX="0.5" pivotY="0.91"/>
+            <HourHand resource="hour_hand" x="207" y="85" width="32" height="151" pivotX="0.5" pivotY="0.9"/>
+            <MinuteHand resource="minute_hand" x="210" y="50" width="27" height="187" pivotX="0.5" pivotY="0.91"/>
+            <SecondHand resource="second_hand" x="220" y="41" width="10" height="226" pivotX="0.5" pivotY="0.814"/>
+        </AnalogClock>
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Ellipse x="214" y="214" width="22" height="22"><Fill color="#F47721"/></Ellipse>
+            <Ellipse x="220" y="220" width="10" height="10"><Fill color="#24262A"/></Ellipse>
+        </PartDraw>
+    </Scene>
+</WatchFace>
